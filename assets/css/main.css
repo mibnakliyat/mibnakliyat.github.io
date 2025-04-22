@@ -4158,3 +4158,52 @@ input, select, textarea {
         display: block;
         margin: 0 auto;
     }
+
+    ul.icons.labeled.vertical {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block !important;
+  white-space: normal !important;
+  padding-left: 0;
+}
+
+ul.icons.labeled.vertical li {
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+ul.icons.labeled.vertical li .icon:before {
+  font-size: 1.75rem;
+  margin-right: 0.75em;
+  vertical-align: middle;
+}
+
+ul.icons.labeled.vertical li .label a {
+  color: #999999;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 736px) {
+  ul.icons.labeled.vertical {
+    text-align: left;
+    display: block !important;
+    white-space: normal !important;
+  }
+
+  ul.icons.labeled.vertical li {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  ul.icons.labeled.vertical li .icon:before {
+    font-size: 1.75rem;
+    margin-right: 0.75em;
+  }
+}
